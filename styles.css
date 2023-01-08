@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  background-image: url("boutique.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  padding: 25px 0 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #445256;
+  max-width: 50%;
+  margin: 100px auto;
+  background-color: #ffffff99;
+  color: #1b4965;
+  font-family: Raleway;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 10px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  padding: 10px 0;
+  border-radius: 5px;
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+#increment-btn {
+  background-color: #5fa8d3;
+}
+
+#save-btn {
+  background-color: #62b6cb;
+}
+
+#countEl {
+  margin: 0;
+  font-size: 60px;
+}
+
+#saveEl {
+  font-size: 30px;
+}
